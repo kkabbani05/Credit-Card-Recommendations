@@ -1,0 +1,69 @@
+.optimizer-container {
+    max-width: 72rem; /* 6xl */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.chart-container {
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recommendation-card {
+    background-color: rgb(249 250 251);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.recommendation-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.recommendation-text {
+    color: rgb(75 85 99);
+}
+
+.tooltip {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid rgb(229 231 235);
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.tooltip-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.tooltip-value {
+    margin: 0;
+}
