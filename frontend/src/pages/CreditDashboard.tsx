@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from "react";
+import React, { useEffect, useState, useRef } from "react";
 import {
     Bell,
     Search,
@@ -12,6 +12,7 @@ import {
     Line,
     XAxis,
     YAxis,
+    Legend,
     Tooltip,
     ResponsiveContainer
 } from "recharts";
@@ -90,20 +91,49 @@ interface LocationState {
 }
 
 const scoreRanges: ScoreRange[] = [
-    {min: 760, max: 850, color: "#00b300", rating: "Excellent"},
-    {min: 620, max: 659, color: "#FFA07A", rating: "Below Average"},
-    {min: 700, max: 759, color: "#90EE90", rating: "Very Good"},
-    {min: 580, max: 619, color: "#FF8C00", rating: "Poor"},
-    {min: 660, max: 699, color: "#FFFF00", rating: "Good"},
-    {min: 300, max: 579, color: "#FF0000", rating: "Very Poor"}
+    { min: 760, max: 850, color: "#00b300", rating: "Excellent" },
+    { min: 620, max: 659, color: "#FFA07A", rating: "Below Average" },
+    { min: 700, max: 759, color: "#90EE90", rating: "Very Good" },
+    { min: 580, max: 619, color: "#FF8C00", rating: "Poor" },
+    { min: 660, max: 699, color: "#FFFF00", rating: "Good" },
+    { min: 300, max: 579, color: "#FF0000", rating: "Very Poor" }
 ];
 
-const dummyTimelineData = [
-    {month: "Q3", transunion: 720, equifax: 715, experian: 710},
-    {month: "Q4", transunion: 735, equifax: 725, experian: 720},
-    {month: "Q1", transunion: 745, equifax: 738, experian: 735},
-    {month: "Q2", transunion: 755, equifax: 751, experian: 761}
-];
+interface MonthlySpending {
+    travel: number;
+    dining: number;
+    onlineGrocery: number;
+    streaming: number;
+    other: number;
+    hotel: number;
+    rentalCar: number;
+    vacationRental: number;
+}
+
+const averageMonthlySpending: MonthlySpending = {
+    travel: 500,
+    dining: 400,
+    onlineGrocery: 600,
+    streaming: 50,
+    other: 1000,
+    hotel: 200,
+    rentalCar: 100,
+    vacationRental: 200
+};
+
+const calculateMonthlySavings = (pointsPerDollar: PointsPerDollar, spending: MonthlySpending): number => {
+    let totalPoints = 0;
+
+    // Calculate points earned in each category
+    Object.keys(spending).forEach((category) => {
+        const spend = spending[category as keyof MonthlySpending];
+        const multiplier = pointsPerDollar[category as keyof PointsPerDollar] || 1;
+        totalPoints += spend * multiplier;
+    });
+
+    // Convert points to dollars (assuming 1 point = 1 cent)
+    return totalPoints * 0.01;
+};
 
 const getScoreColor = (score: number): string => {
     const range = scoreRanges.find(
@@ -194,31 +224,47 @@ const Dashboard: React.FC = () => {
         );
     };
 
+    // Generate 12 months of data for each card
+    const generateSavingsData = () => {
+        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+        return months.map((month, index) => {
+            const monthData: any = { month };
+            let totalSavings = 0;
+
+            // Calculate cumulative savings for each card
+            recommendations.recommendations.forEach(card => {
+                const monthlySaving = calculateMonthlySavings(card.card_info.rewards.pointsPerDollar, averageMonthlySpending);
+                const cumulativeSaving = monthlySaving * (index + 1);
+                monthData[card.card_info.cardName] = cumulativeSaving;
+                totalSavings += cumulativeSaving;
+            });
+
+            // Add combined savings
+            monthData.combinedSavings = totalSavings;
+
+            return monthData;
+        });
+    };
+
+    const savingsData = generateSavingsData();
+
+    // Line colors for each card
+    const cardColors = {
+        "Chase Sapphire Preferred Card": "#84cc16",
+        "Capital One Venture Rewards Credit Card": "#60a5fa",
+        "AmEx Platinum Card": "#f87171",
+        "combinedSavings": "#a855f7"
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-white p-6">
             {/* Navigation */}
             <nav className="flex items-center justify-between mb-8">
                 <div className="flex items-center space-x-8">
                     <div className="text-xl font-semibold flex items-center">
-                        <div className="w-6 h-6 bg-lime-400 rounded-full mr-2"/>
+                        <div className="w-6 h-6 bg-lime-400 rounded-full mr-2" />
                         CardAdvise
-                    </div>
-                    <div className="relative">
-                        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4"/>
-                        <input
-                            type="text"
-                            placeholder="Search"
-                            className="bg-slate-800/50 rounded-full pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-lime-400"
-                        />
-                    </div>
-                </div>
-                <div className="flex items-center space-x-6">
-                    <button className="bg-slate-800/50 p-2 rounded-full">
-                        <Bell className="w-5 h-5"/>
-                    </button>
-                    <div className="flex items-center space-x-2">
-                        <div className="w-8 h-8 bg-lime-400 rounded-full"/>
-                        <Grid className="w-5 h-5"/>
                     </div>
                 </div>
             </nav>
@@ -296,7 +342,7 @@ const Dashboard: React.FC = () => {
                             >
                                 <div
                                     className="w-3 h-3 rounded-full"
-                                    style={{backgroundColor: range.color}}
+                                    style={{ backgroundColor: range.color }}
                                 />
                                 <span>{`${range.min}-${range.max}: ${range.rating}`}</span>
                             </div>
@@ -307,51 +353,44 @@ const Dashboard: React.FC = () => {
                 {/* Financial Plans Section */}
                 <div className="col-span-7 bg-slate-800/50 rounded-2xl p-6">
                     <div className="flex justify-between items-center mb-6">
-                        <h2 className="text-xl font-semibold">Financial Plans</h2>
-                        <div className="flex space-x-4">
-                            <button className="px-3 py-1 rounded-full bg-lime-400 text-slate-900">
-                                Credit repair
-                            </button>
-                            <button className="px-3 py-1 rounded-full border border-gray-600">
-                                Build wealth
-                            </button>
-                            <button className="px-3 py-1 rounded-full border border-gray-600">
-                                Buy a home
-                            </button>
-                        </div>
+                        <h2 className="text-xl font-semibold">Projected Rewards Value</h2>
                     </div>
                     <div className="h-64">
                         <ResponsiveContainer width="100%" height="100%">
-                            <LineChart data={dummyTimelineData}>
-                                <XAxis dataKey="month" stroke="#94a3b8"/>
-                                <YAxis stroke="#94a3b8" domain={[650, 800]}/>
+                            <LineChart data={savingsData}>
+                                <XAxis dataKey="month" stroke="#94a3b8" />
+                                <YAxis
+                                    stroke="#94a3b8"
+                                    tickFormatter={(value) => `$${value}`}
+                                />
                                 <Tooltip
                                     contentStyle={{
                                         backgroundColor: "#1e293b",
                                         border: "none",
                                         borderRadius: "0.5rem"
                                     }}
+                                    formatter={(value: number) => [`$${value.toFixed(2)}`, ""]}
                                 />
+                                <Legend />
+                                {recommendations.recommendations.map((card) => (
+                                    <Line
+                                        key={card.card_info.cardName}
+                                        type="monotone"
+                                        dataKey={card.card_info.cardName}
+                                        name={`${card.card_info.cardName} Rewards`}
+                                        stroke={cardColors[card.card_info.cardName as keyof typeof cardColors]}
+                                        strokeWidth={2}
+                                        dot={{ fill: cardColors[card.card_info.cardName as keyof typeof cardColors] }}
+                                    />
+                                ))}
                                 <Line
                                     type="monotone"
-                                    dataKey="transunion"
-                                    stroke="#84cc16"
-                                    strokeWidth={2}
-                                    dot={{fill: "#84cc16"}}
-                                />
-                                <Line
-                                    type="monotone"
-                                    dataKey="equifax"
-                                    stroke="#60a5fa"
-                                    strokeWidth={2}
-                                    dot={{fill: "#60a5fa"}}
-                                />
-                                <Line
-                                    type="monotone"
-                                    dataKey="experian"
-                                    stroke="#f87171"
-                                    strokeWidth={2}
-                                    dot={{fill: "#f87171"}}
+                                    dataKey="combinedSavings"
+                                    name="Combined Rewards"
+                                    stroke={cardColors.combinedSavings}
+                                    strokeWidth={3}
+                                    strokeDasharray="5 5"
+                                    dot={{ fill: cardColors.combinedSavings }}
                                 />
                             </LineChart>
                         </ResponsiveContainer>
@@ -392,9 +431,9 @@ const Dashboard: React.FC = () => {
                         </span>
                                             </div>
                                             {expandedCard === card.card_info.cardName ? (
-                                                <ArrowUp className="w-4 h-4 text-gray-400"/>
+                                                <ArrowUp className="w-4 h-4 text-gray-400" />
                                             ) : (
-                                                <ArrowDown className="w-4 h-4 text-gray-400"/>
+                                                <ArrowDown className="w-4 h-4 text-gray-400" />
                                             )}
                                         </div>
                                     </div>
@@ -413,7 +452,7 @@ const Dashboard: React.FC = () => {
                                 >
                                     <div className="px-6 pb-6">
                                         <div className="border-t border-slate-700 pt-6">
-                                            <CreditCardInfo cardData={card.card_info}/>
+                                            <CreditCardInfo cardData={card.card_info} />
                                         </div>
                                     </div>
                                 </div>
