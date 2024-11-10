@@ -645,7 +645,7 @@
         "dining": 10,
         "hotel": 10,
         "rentalCar": 10,
-        "other": 10
+        "other": 1
       },
       "signUpBonus": {
         "points": 60000,

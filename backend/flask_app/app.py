@@ -83,7 +83,7 @@ def recommend():
             rec_prompt = f.read()
 
         # Get recommendations
-        client = OpenAI(api_key="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")
+        client = OpenAI(api_key="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")
         completion = client.beta.chat.completions.parse(
             model="gpt-4o-2024-08-06",
             messages=[
