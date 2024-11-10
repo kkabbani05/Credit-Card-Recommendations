@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c60e1d5-9805-4d84-b065-880451d6d79e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/credit-card-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/credit-card-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/data/credit-card-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/dummy/tx-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/tx-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/dummy/user-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/user-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/flask_app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/flask_app/mcc_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/utils/mcc_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prompts/rec-prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/prompts/rec-prompt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prompts/sys-prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/prompts/sys-prompt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/recommendation-logic/mcc_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/mcc_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/recommendation-logic/recommender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/recommender.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/recommendation-logic/tx_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/tx_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test-logic/dummy-data/credit-card-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/credit-card-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test-logic/recommender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/recommender.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -45,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "backend",
-    "last_opened_file_path": "/Users/n1v3x/Development/React/credit-card-recommendations/backend/test-logic/dummy-data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/n1v3x/Development/React/credit-card-recommendations/backend/test-logic/dummy-data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/test-logic/dummy-data" />
@@ -100,6 +94,8 @@
       <workItem from="1731199179837" duration="1241000" />
       <workItem from="1731200430742" duration="3240000" />
       <workItem from="1731204287399" duration="22857000" />
+      <workItem from="1731238663836" duration="171000" />
+      <workItem from="1731238841947" duration="1444000" />
     </task>
     <servers />
   </component>
