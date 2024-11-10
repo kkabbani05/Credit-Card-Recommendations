@@ -1,946 +1,947 @@
 {
-  "creditCards": [
-    {
-      "cardName": "Chase Sapphire Preferred Card",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 95,
-      "APR": "20.99% - 27.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "travel": 5,
-          "dining": 3,
-          "onlineGrocery": 3,
-          "streaming": 3,
-          "other": 1
-        },
-        "signUpBonus": {
-          "points": 60000,
-          "minimumSpend": 4000,
-          "timeFrameMonths": 3
-        }
+  "Chase Sapphire Preferred Card": {
+    "cardName": "Chase Sapphire Preferred Card",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "APR": "20.99% - 27.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "travel": 5,
+        "dining": 3,
+        "onlineGrocery": 3,
+        "streaming": 3,
+        "other": 1
       },
-      "benefits": [
-        "$300 in travel credits in the first year",
-        "Primary rental car insurance",
-        "No foreign transaction fees",
-        "$150 in additional partnership benefit value",
-        "1:1 point transfer with partners",
-        "Travel and purchase coverage"
-      ],
-      "creditCardScoreMin": 650,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 60000,
+        "minimumSpend": 4000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Capital One Venture Rewards Credit Card",
-      "cardType": "Credit Card",
-      "issuer": "Capital One",
-      "annualFee": 95,
-      "APR": "19.99% - 29.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 2,
-          "travel": 5,
-          "hotel": 5,
-          "rentalCar": 5,
-          "vacationRental": 5
-        },
-        "signUpBonus": {
-          "miles": 75000,
-          "minimumSpend": 4000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "$300 in travel credits in the first year",
+      "Primary rental car insurance",
+      "No foreign transaction fees",
+      "$150 in additional partnership benefit value",
+      "1:1 point transfer with partners",
+      "Travel and purchase coverage"
+    ],
+    "creditCardScoreMin": 650,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+    "countryOfOrigin": "USA"
+  },
+  "Capital One Venture Rewards Credit Card": {
+    "cardName": "Capital One Venture Rewards Credit Card",
+    "cardType": "Credit Card",
+    "issuer": "Capital One",
+    "annualFee": 95,
+    "APR": "19.99% - 29.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 2,
+        "travel": 5,
+        "hotel": 5,
+        "rentalCar": 5,
+        "vacationRental": 5
       },
-      "benefits": [
-        "No foreign transaction fees",
-        "Travel accident insurance",
-        "Auto rental coverage",
-        "Credit of up to $120 for the application fee for Global Entry or TSA Precheck when you pay with the card.",
-        "Extended warranty on eligible items."
-      ],
-      "creditCardScoreMin": 700,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.capitalone.com/credit-cards/venture/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "miles": 75000,
+        "minimumSpend": 4000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "AmEx Platinum Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 695,
-      "APR": "20.49% - 28.49%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "travel": 5,
-          "hotel": 5
-        },
-        "signUpBonus": {
-          "points": 80000,
-          "minimumSpend": 8000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "No foreign transaction fees",
+      "Travel accident insurance",
+      "Auto rental coverage",
+      "Credit of up to $120 for the application fee for Global Entry or TSA Precheck when you pay with the card.",
+      "Extended warranty on eligible items."
+    ],
+    "creditCardScoreMin": 700,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.capitalone.com/credit-cards/venture/",
+    "countryOfOrigin": "USA"
+  },
+  "AmEx Platinum Card": {
+    "cardName": "AmEx Platinum Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 695,
+    "APR": "20.49% - 28.49%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "travel": 5,
+        "hotel": 5
       },
-      "benefits": [
-        "American Express Global Lounge Collection",
-        "$200 airline fee credit",
-        "$200 Uber Cash",
-        "$240 digital entertainment credit",
-        "$200 hotel credit annually",
-        "Various travel protections",
-        "$199 CLEAR® Plus Credit",
-        "Fine Hotels + Resorts and The Hotel Collection",
-        "Global Dining Access by Resy",
-        "Premium Car Rental Protection",
-        "Walmart+ Monthly Membership Credit",
-        "Cell Phone Protection",
-        "$100 Shop Saks With Platinum"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://card.americanexpress.com/d/platinum-card/?utm_mcid=&utm_source=google&utm_medium=cpc&utm_term=%2Bamerican%20%2Bexpress%20%2Bplatinum&utm_cmpid=18507428845&utm_adgid=142828790300&utm_tgtid=kwd-383918391531&utm_mt=p&utm_adid=718242918426&utm_dvc=c&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=9027902&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandcps&utm_cmp=Platinum&utm_sl=&gclid=Cj0KCQiArby5BhCDARIsAIJvjIS6r8sv-CNjT_GqafNb7LHp49KiZa7JGF8FgV3A0WAfjc-RT5exYYgaAnfYEALw_wcB",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 80000,
+        "minimumSpend": 8000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Discover it Cash Back",
-      "cardType": "Credit Card",
-      "issuer": "Discover",
-      "annualFee": 0,
-      "APR": "18.74% - 27.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "categories": 1500
-        },
-        "signUpBonus": {
-          "points": 30000,
-          "minimumSpend": null,
-          "timeFrameMonths": 12
-        }
+    "benefits": [
+      "American Express Global Lounge Collection",
+      "$200 airline fee credit",
+      "$200 Uber Cash",
+      "$240 digital entertainment credit",
+      "$200 hotel credit annually",
+      "Various travel protections",
+      "$199 CLEAR® Plus Credit",
+      "Fine Hotels + Resorts and The Hotel Collection",
+      "Global Dining Access by Resy",
+      "Premium Car Rental Protection",
+      "Walmart+ Monthly Membership Credit",
+      "Cell Phone Protection",
+      "$100 Shop Saks With Platinum"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://card.americanexpress.com/d/platinum-card/?utm_mcid=&utm_source=google&utm_medium=cpc&utm_term=%2Bamerican%20%2Bexpress%20%2Bplatinum&utm_cmpid=18507428845&utm_adgid=142828790300&utm_tgtid=kwd-383918391531&utm_mt=p&utm_adid=718242918426&utm_dvc=c&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=9027902&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandcps&utm_cmp=Platinum&utm_sl=&gclid=Cj0KCQiArby5BhCDARIsAIJvjIS6r8sv-CNjT_GqafNb7LHp49KiZa7JGF8FgV3A0WAfjc-RT5exYYgaAnfYEALw_wcB",
+    "countryOfOrigin": "USA"
+  },
+  "Discover it Cash Back": {
+    "cardName": "Discover it Cash Back",
+    "cardType": "Credit Card",
+    "issuer": "Discover",
+    "annualFee": 0,
+    "APR": "18.74% - 27.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "categories": 1500
       },
-      "benefits": [
-        "No annual fee",
-        "0% intro APR for 15 months on purchases and balance transfers",
-        "Cashback does not expire",
-        "Extra rewards opportunities available through rotations"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.discover.com/products/it-card.html?sc=GJVC&iq_id=r43700078743878789&cmpgnid=ps-dca-google-brand-cashback&source=PSGOOGLE&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjITv1P8hMvqFbpxYqr0kyBS6cYXUXBlmCdmtRFCXAXh-vDvn4O-0XFwaAgXBEALw_wcB&gclsrc=aw.ds",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 30000,
+        "minimumSpend": null,
+        "timeFrameMonths": 12
+      }
     },
-    {
-      "cardName": "Wells Fargo Active Cash Card",
-      "cardType": "Credit Card",
-      "issuer": "Wells Fargo",
-      "annualFee": 0,
-      "APR": "19.74% - 29.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 2
-        },
-        "signUpBonus": {
-          "points": 20000,
-          "minimumSpend": 500,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "No annual fee",
+      "0% intro APR for 15 months on purchases and balance transfers",
+      "Cashback does not expire",
+      "Extra rewards opportunities available through rotations"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.discover.com/products/it-card.html?sc=GJVC&iq_id=r43700078743878789&cmpgnid=ps-dca-google-brand-cashback&source=PSGOOGLE&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjITv1P8hMvqFbpxYqr0kyBS6cYXUXBlmCdmtRFCXAXh-vDvn4O-0XFwaAgXBEALw_wcB&gclsrc=aw.ds",
+    "countryOfOrigin": "USA"
+  },
+  "Wells Fargo Active Cash Card": {
+    "cardName": "Wells Fargo Active Cash Card",
+    "cardType": "Credit Card",
+    "issuer": "Wells Fargo",
+    "annualFee": 0,
+    "APR": "19.74% - 29.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 2
       },
-      "benefits": [
-        "Cellphone protection up to $600 against damage or theft",
-        "Access to Visa Signature perks",
-        "Auto Rental Collision Damage Waiver",
-        "Travel and Emergency Assistance Services",
-        "Roadside Dispatch",
-        "Emergency Cash Disbursement and Card Replacement",
-        "Zero Liability protection"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.wellsfargo.com/cards/active-cash-credit-card/?FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&sub_channel=SEM&vendor_code=G&Placement_ID=71700000085077219_43700076272756699&gclid=Cj0KCQiArby5BhCDARIsAIJvjITVN5F4sXZHiHTQXkz4eicf5XEI3fEGM0ktY3S7TjKOMC9X_iZbv6kaAl0_EALw_wcB&gclsrc=aw.ds",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 20000,
+        "minimumSpend": 500,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Citi Double Cash Card",
-      "cardType": "Credit Card",
-      "issuer": "Citibank",
-      "annualFee": 0,
-      "APR": "18.74% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 2
-        },
-        "signUpBonus": {
-          "cash": 200,
-          "minimumSpend": 1500,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "Cellphone protection up to $600 against damage or theft",
+      "Access to Visa Signature perks",
+      "Auto Rental Collision Damage Waiver",
+      "Travel and Emergency Assistance Services",
+      "Roadside Dispatch",
+      "Emergency Cash Disbursement and Card Replacement",
+      "Zero Liability protection"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.wellsfargo.com/cards/active-cash-credit-card/?FPID=0126D7I6F40000&product_code=CC&subproduct_code=AC&sub_channel=SEM&vendor_code=G&Placement_ID=71700000085077219_43700076272756699&gclid=Cj0KCQiArby5BhCDARIsAIJvjITVN5F4sXZHiHTQXkz4eicf5XEI3fEGM0ktY3S7TjKOMC9X_iZbv6kaAl0_EALw_wcB&gclsrc=aw.ds",
+    "countryOfOrigin": "USA"
+  },
+  "Citi Double Cash Card": {
+    "cardName": "Citi Double Cash Card",
+    "cardType": "Credit Card",
+    "issuer": "Citibank",
+    "annualFee": 0,
+    "APR": "18.74% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 2
       },
-      "benefits": [
-        "0% intro APR on balance transfers for 18 months",
-        "Purchase protection",
-        "Theft protection",
-        "Lost wallet service",
-        "Concierge services"
-      ],
-      "creditCardScoreMin": 630,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.citi.com/usc/LPACA/Citi/Cards/DoubleCash/ps_A/index.html?cmp=knc|acquire|2006|CARDS|Google|BR&targetid=kwd-99517658725&gclid=Cj0KCQiArby5BhCDARIsAIJvjISas_kwsIFtGZ0ptPXxJMseQqXom3_ScfsNzLIxsQ5ezay84QFDz_kaAqt3EALw_wcB&gclsrc=aw.ds&ProspectID=PwAblNXLlS2SHJ2YJGxHSZC6c8AuHEDU",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 200,
+        "minimumSpend": 1500,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Blue Cash Preferred Card from AmEx",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 95,
-      "APR": "18.74% - 29.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "grocery": 6,
-          "streaming": 6,
-          "gas": 3,
-          "travel": 3
-        },
-        "signUpBonus": {
-          "cash": 250,
-          "minimumSpend": 3000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "0% intro APR on balance transfers for 18 months",
+      "Purchase protection",
+      "Theft protection",
+      "Lost wallet service",
+      "Concierge services"
+    ],
+    "creditCardScoreMin": 630,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.citi.com/usc/LPACA/Citi/Cards/DoubleCash/ps_A/index.html?cmp=knc|acquire|2006|CARDS|Google|BR&targetid=kwd-99517658725&gclid=Cj0KCQiArby5BhCDARIsAIJvjISas_kwsIFtGZ0ptPXxJMseQqXom3_ScfsNzLIxsQ5ezay84QFDz_kaAqt3EALw_wcB&gclsrc=aw.ds&ProspectID=PwAblNXLlS2SHJ2YJGxHSZC6c8AuHEDU",
+    "countryOfOrigin": "USA"
+  },
+  "Blue Cash Preferred Card from AmEx": {
+    "cardName": "Blue Cash Preferred Card from AmEx",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 95,
+    "APR": "18.74% - 29.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "grocery": 6,
+        "streaming": 6,
+        "gas": 3,
+        "travel": 3
       },
-      "benefits": [
-        "Purchase protection",
-        "No foreign transaction fees",
-        "$250 statement credit after spending $3,000 in first 6 months",
-        "$84 Disney Bundle Credit",
-        "Global Assist® Hotline",
-        "Events with Amex",
-        "Car Rental Loss and Damage Insurance"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://card.americanexpress.com/d/blue-cash-preferred-credit-card/?utm_mcid=&utm_source=google&utm_medium=cpc&utm_term=%2Bbcprsvp&utm_cmpid=18507429010&utm_adgid=142588111672&utm_tgtid=kwd-1816175834781&utm_mt=p&utm_adid=714799789621&utm_dvc=c&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=9027902&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandcps&utm_cmp=BCP&utm_sl=&gclid=Cj0KCQiArby5BhCDARIsAIJvjIT_rSxoVMYd6luzw0CYgr69ZPF8fz_6uMCFYxR9j0wqYyyXwqEyM7QaApngEALw_wcB",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 250,
+        "minimumSpend": 3000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Citi Custom Cash Card",
-      "cardType": "Credit Card",
-      "issuer": "Citi",
-      "annualFee": 0,
-      "APR": "18.74% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "categories": 500
-        },
-        "signUpBonus": {
-          "cash": 200,
-          "minimumSpend": 1500,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "Purchase protection",
+      "No foreign transaction fees",
+      "$250 statement credit after spending $3,000 in first 6 months",
+      "$84 Disney Bundle Credit",
+      "Global Assist® Hotline",
+      "Events with Amex",
+      "Car Rental Loss and Damage Insurance"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://card.americanexpress.com/d/blue-cash-preferred-credit-card/?utm_mcid=&utm_source=google&utm_medium=cpc&utm_term=%2Bbcprsvp&utm_cmpid=18507429010&utm_adgid=142588111672&utm_tgtid=kwd-1816175834781&utm_mt=p&utm_adid=714799789621&utm_dvc=c&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=9027902&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandcps&utm_cmp=BCP&utm_sl=&gclid=Cj0KCQiArby5BhCDARIsAIJvjIT_rSxoVMYd6luzw0CYgr69ZPF8fz_6uMCFYxR9j0wqYyyXwqEyM7QaApngEALw_wcB",
+    "countryOfOrigin": "USA"
+  },
+  "Citi Custom Cash Card": {
+    "cardName": "Citi Custom Cash Card",
+    "cardType": "Credit Card",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "APR": "18.74% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "categories": 500
       },
-      "benefits": [
-        "Free FICO score access",
-        "Access to World Elite Mastercard benefits"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.citi.com/usc/LPACA/Citi/Cards/CustomCash/ps/index.html?cmp=knc|acquire|2006|CARDS|Google|BR&gclid=Cj0KCQiArby5BhCDARIsAIJvjIQRV27mKswLliSfkEE94QW-k6rG-CMSdT_cb7098AlYetDNFnOzQowaAlvyEALw_wcB&gclsrc=aw.ds&ProspectID=PP9mrkfNdrx3Z9DNSpKft8EbbYNIcv8D",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 200,
+        "minimumSpend": 1500,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Chase Freedom Unlimited",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 0,
-      "APR": "19.99% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1.5,
-          "dining": 3,
-          "onlineDining": 3,
-          "travel": 5
-        },
-        "signUpBonus": {
-          "cash": 200,
-          "minimumSpend": 500,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Free FICO score access",
+      "Access to World Elite Mastercard benefits"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.citi.com/usc/LPACA/Citi/Cards/CustomCash/ps/index.html?cmp=knc|acquire|2006|CARDS|Google|BR&gclid=Cj0KCQiArby5BhCDARIsAIJvjIQRV27mKswLliSfkEE94QW-k6rG-CMSdT_cb7098AlYetDNFnOzQowaAlvyEALw_wcB&gclsrc=aw.ds&ProspectID=PP9mrkfNdrx3Z9DNSpKft8EbbYNIcv8D",
+    "countryOfOrigin": "USA"
+  },
+  "Chase Freedom Unlimited": {
+    "cardName": "Chase Freedom Unlimited",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "APR": "19.99% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1.5,
+        "dining": 3,
+        "onlineDining": 3,
+        "travel": 5
       },
-      "benefits": [
-        "Purchase protection for 120 days against damage or theft, up to $500 per claim",
-        "Travel insurance including Trip Cancellation and Interruption coverage",
-        "Trip Cancellation/Interruption Insurance",
-        "Auto Rental Collision Damage Waiver"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 200,
+        "minimumSpend": 500,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Wells Fargo Reflect Card",
-      "cardType": "Credit Card",
-      "issuer": "Wells Fargo",
-      "annualFee": 0,
-      "APR": "17.74% - 29.49%",
-      "rewards": {},
-      "benefits": [
-        "0% intro APR for 21 months",
-        "Cell phone protection",
-        "Zero Liability protection"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/?sub_channel=SEO&vendor_code=G",
-      "countryOfOrigin": "USA"
+    "benefits": [
+      "Purchase protection for 120 days against damage or theft, up to $500 per claim",
+      "Travel insurance including Trip Cancellation and Interruption coverage",
+      "Trip Cancellation/Interruption Insurance",
+      "Auto Rental Collision Damage Waiver"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+    "countryOfOrigin": "USA"
+  },
+  "Wells Fargo Reflect Card": {
+    "cardName": "Wells Fargo Reflect Card",
+    "cardType": "Credit Card",
+    "issuer": "Wells Fargo",
+    "annualFee": 0,
+    "APR": "17.74% - 29.49%",
+    "rewards": {
     },
-    {
-      "cardName": "Chase Freedom Flex",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 0,
-      "APR": "19.99% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "dining": 3,
-          "drugstore": 3,
-          "travel": 5,
-          "categories": 1500
-        },
-        "signUpBonus": {
-          "cash": 200,
-          "minimumSpend": 500,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "0% intro APR for 21 months",
+      "Cell phone protection",
+      "Zero Liability protection"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/?sub_channel=SEO&vendor_code=G",
+    "countryOfOrigin": "USA"
+  },
+  "Chase Freedom Flex": {
+    "cardName": "Chase Freedom Flex",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "APR": "19.99% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "dining": 3,
+        "drugstore": 3,
+        "travel": 5,
+        "categories": 1500
       },
-      "benefits": [
-        "Welcome bonus of $200 after spending $500 in the first 3 months",
-        "0% intro APR for 15 months on purchases and balance transfers",
-        "No foreign transaction fees",
-        "Service and Protection"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 200,
+        "minimumSpend": 500,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Capital One Savor Cash Rewards Card",
-      "cardType": "Credit Card",
-      "issuer": "Capital One",
-      "annualFee": 0,
-      "APR": "19.74% - 29.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "entertainment": 8,
-          "dining": 3,
-          "hotel": 5,
-          "rentalCar": 5,
-          "travel": 5
-        },
-        "signUpBonus": {
-          "cash": 250,
-          "minimumSpend": 500,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Welcome bonus of $200 after spending $500 in the first 3 months",
+      "0% intro APR for 15 months on purchases and balance transfers",
+      "No foreign transaction fees",
+      "Service and Protection"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+    "countryOfOrigin": "USA"
+  },
+  "Capital One Savor Cash Rewards Card": {
+    "cardName": "Capital One Savor Cash Rewards Card",
+    "cardType": "Credit Card",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "APR": "19.74% - 29.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "entertainment": 8,
+        "dining": 3,
+        "hotel": 5,
+        "rentalCar": 5,
+        "travel": 5
       },
-      "benefits": [
-        "No foreign transaction fees",
-        "0% intro APR for 15 months on purchases and balance transfers",
-        "Lifetime reward expiry",
-        "Travel Accident Insurance"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.capitalone.com/credit-cards/savor/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 250,
+        "minimumSpend": 500,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "U.S. Bank Cash Plus Visa Signature Card",
-      "cardType": "Credit Card",
-      "issuer": "U.S. Bank",
-      "annualFee": 0,
-      "APR": "18.74% - 28.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "categories": 2000,
-          "dining": 2,
-          "travel": 5
-        },
-        "signUpBonus": {
-          "cash": 200,
-          "minimumSpend": 1000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "No foreign transaction fees",
+      "0% intro APR for 15 months on purchases and balance transfers",
+      "Lifetime reward expiry",
+      "Travel Accident Insurance"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.capitalone.com/credit-cards/savor/",
+    "countryOfOrigin": "USA"
+  },
+  "U.S. Bank Cash Plus Visa Signature Card": {
+    "cardName": "U.S. Bank Cash Plus Visa Signature Card",
+    "cardType": "Credit Card",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "APR": "18.74% - 28.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "categories": 2000,
+        "dining": 2,
+        "travel": 5
       },
-      "benefits": [
-        "0% intro APR on purchases and balance transfers for the first 15 billing cycles"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 200,
+        "minimumSpend": 1000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "American Express Gold Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 325,
-      "APR": "20.49% - 28.49%",
-      "rewards": {
-        "pointsPerDollar": {
-          "dining": 4,
-          "grocery": 4,
-          "travel": 3,
-          "hotel": 2,
-          "other": 1
-        },
-        "signUpBonus": {
-          "points": 80000,
-          "minimumSpend": 6000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "0% intro APR on purchases and balance transfers for the first 15 billing cycles"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+    "countryOfOrigin": "USA"
+  },
+  "American Express Gold Card": {
+    "cardName": "American Express Gold Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 325,
+    "APR": "20.49% - 28.49%",
+    "rewards": {
+      "pointsPerDollar": {
+        "dining": 4,
+        "grocery": 4,
+        "travel": 3,
+        "hotel": 2,
+        "other": 1
       },
-      "benefits": [
-        "Up to $120 dining credit per year",
-        "Uber Cash of up to $120 each year",
-        "Flexible redemption on points",
-        "$84 Dunkin' Credit",
-        "$100 Resy Credit"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 80000,
+        "minimumSpend": 6000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Citi Simplicity Card",
-      "cardType": "Credit Card",
-      "issuer": "Citi",
-      "annualFee": 0,
-      "APR": "18.74% - 29.49%",
-      "rewards": {},
-      "benefits": [
-        "No late fees",
-        "No penalty rate",
-        "0% intro APR for 21 months on balance transfers",
-        "0% intro APR for 12 months on purchases"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.citi.com/usc/LPACA/Citi/Cards/Simplicity/ps/index.html?cmp=knc|acquire|2006|CARDS|Google|BR&targetid=kwd-1249299615&gclid=Cj0KCQiArby5BhCDARIsAIJvjIQVw4pgnlMLH29Gc7bwDAt24w3hiIzs7qsvheGRRFR4nDQpZeJjJK0aAtk_EALw_wcB&gclsrc=aw.ds&ProspectID=PXiDb0StDAmpZgoggmxgebYFyhr1K6Tw",
-      "countryOfOrigin": "USA"
+    "benefits": [
+      "Up to $120 dining credit per year",
+      "Uber Cash of up to $120 each year",
+      "Flexible redemption on points",
+      "$84 Dunkin' Credit",
+      "$100 Resy Credit"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+    "countryOfOrigin": "USA"
+  },
+  "Citi Simplicity Card": {
+    "cardName": "Citi Simplicity Card",
+    "cardType": "Credit Card",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "APR": "18.74% - 29.49%",
+    "rewards": {
     },
-    {
-      "cardName": "Hilton Honors American Express Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 0,
-      "APR": "20.49% - 29.49%",
-      "rewards": {
-        "pointsPerDollar": {
-          "hotel": 7,
-          "dining": 5,
-          "gas": 5,
-          "other": 3
-        },
-        "signUpBonus": {
-          "points": 100000,
-          "minimumSpend": 2000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "No late fees",
+      "No penalty rate",
+      "0% intro APR for 21 months on balance transfers",
+      "0% intro APR for 12 months on purchases"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.citi.com/usc/LPACA/Citi/Cards/Simplicity/ps/index.html?cmp=knc|acquire|2006|CARDS|Google|BR&targetid=kwd-1249299615&gclid=Cj0KCQiArby5BhCDARIsAIJvjIQVw4pgnlMLH29Gc7bwDAt24w3hiIzs7qsvheGRRFR4nDQpZeJjJK0aAtk_EALw_wcB&gclsrc=aw.ds&ProspectID=PXiDb0StDAmpZgoggmxgebYFyhr1K6Tw",
+    "countryOfOrigin": "USA"
+  },
+  "Hilton Honors American Express Card": {
+    "cardName": "Hilton Honors American Express Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "APR": "20.49% - 29.49%",
+    "rewards": {
+      "pointsPerDollar": {
+        "hotel": 7,
+        "dining": 5,
+        "gas": 5,
+        "other": 3
       },
-      "benefits": [
-        "Complimentary Hilton Honors Gold status",
-        "No foreign transaction fees",
-        "Car Rental Loss and Damage Insurance"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 100000,
+        "minimumSpend": 2000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Citi Strata Premier Card",
-      "cardType": "Credit Card",
-      "issuer": "Citi",
-      "annualFee": 95,
-      "APR": "20.74% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "hotel": 10,
-          "rentalCar": 10,
-          "travel": 3,
-          "dining": 3,
-          "grocery": 3,
-          "gas": 3,
-          "other": 1
-        },
-        "signUpBonus": {
-          "points": 75000,
-          "minimumSpend": 4000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Complimentary Hilton Honors Gold status",
+      "No foreign transaction fees",
+      "Car Rental Loss and Damage Insurance"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+    "countryOfOrigin": "USA"
+  },
+  "Citi Strata Premier Card": {
+    "cardName": "Citi Strata Premier Card",
+    "cardType": "Credit Card",
+    "issuer": "Citi",
+    "annualFee": 95,
+    "APR": "20.74% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "hotel": 10,
+        "rentalCar": 10,
+        "travel": 3,
+        "dining": 3,
+        "grocery": 3,
+        "gas": 3,
+        "other": 1
       },
-      "benefits": [
-        "Travel insurance protections",
-        "No foreign transaction fees",
-        "$100 hotel credit on stays of $500 or more"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 75000,
+        "minimumSpend": 4000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "U.S. Bank Visa Platinum Card",
-      "cardType": "Credit Card",
-      "issuer": "U.S. Bank",
-      "annualFee": 0,
-      "APR": "17.99% - 28.99%",
-      "rewards": {},
-      "benefits": [
-        "Cell phone protection",
-        "No foreign transaction fees",
-        "Auto pay & due date choice",
-        "ID Navigator Powered by NortonLifeLock"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.usbank.com/credit-cards/visa-platinum-credit-card.html",
-      "countryOfOrigin": "USA"
+    "benefits": [
+      "Travel insurance protections",
+      "No foreign transaction fees",
+      "$100 hotel credit on stays of $500 or more"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+    "countryOfOrigin": "USA"
+  },
+  "U.S. Bank Visa Platinum Card": {
+    "cardName": "U.S. Bank Visa Platinum Card",
+    "cardType": "Credit Card",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "APR": "17.99% - 28.99%",
+    "rewards": {
     },
-    {
-      "cardName": "Bank of America Travel Rewards Credit Card",
-      "cardType": "Credit Card",
-      "issuer": "Bank of America",
-      "annualFee": 0,
-      "APR": "18.74% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1.5
-        },
-        "signUpBonus": {
-          "points": 25000,
-          "minimumSpend": 1000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Cell phone protection",
+      "No foreign transaction fees",
+      "Auto pay & due date choice",
+      "ID Navigator Powered by NortonLifeLock"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.usbank.com/credit-cards/visa-platinum-credit-card.html",
+    "countryOfOrigin": "USA"
+  },
+  "Bank of America Travel Rewards Credit Card": {
+    "cardName": "Bank of America Travel Rewards Credit Card",
+    "cardType": "Credit Card",
+    "issuer": "Bank of America",
+    "annualFee": 0,
+    "APR": "18.74% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1.5
       },
-      "benefits": [
-        "No foreign transaction fees"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 25000,
+        "minimumSpend": 1000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Discover it Student Cash Back",
-      "cardType": "Credit Card",
-      "issuer": "Discover",
-      "annualFee": 0,
-      "APR": "17.74% - 26.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "dining": 5
-        },
-        "signUpBonus": {
-          "points": 25000,
-          "minimumSpend": null,
-          "timeFrameMonths": 12
-        }
+    "benefits": [
+      "No foreign transaction fees"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
+    "countryOfOrigin": "USA"
+  },
+  "Discover it Student Cash Back": {
+    "cardName": "Discover it Student Cash Back",
+    "cardType": "Credit Card",
+    "issuer": "Discover",
+    "annualFee": 0,
+    "APR": "17.74% - 26.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "dining": 5
       },
-      "benefits": [
-        "First-year cashback match",
-        "No annual fee",
-        "No foreign transaction fees",
-        "Free FICO score access",
-        "Short introductory APR period on purchases"
-      ],
-      "creditCardScoreMin": 630,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.discover.com/products/student-it.html?sc=RJQS&iq_id=r43700079725617932&cmpgnid=ps-dca-google-student-brand-cashback&source=PSGOOGLE&gclid=Cj0KCQiArby5BhCDARIsAIJvjIQoKhyqPS7_97xkzuywqCFwoK6re5lmFqUMl0OHQ4wEArpODJnw5VoaAgJfEALw_wcB&gclsrc=aw.ds",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 25000,
+        "minimumSpend": null,
+        "timeFrameMonths": 12
+      }
     },
-    {
-      "cardName": "Delta SkyMiles Gold American Express Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express National Bank",
-      "annualFee": 150,
-      "APR": "20.24% - 29.24%",
-      "rewards": {
-        "pointsPerDollar": {
-          "dining": 2,
-          "onlineDining": 2,
-          "grocery": 2,
-          "travel": 2,
-          "other": 1
-        },
-        "signUpBonus": {
-          "miles": 50000,
-          "minimumSpend": 2000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "First-year cashback match",
+      "No annual fee",
+      "No foreign transaction fees",
+      "Free FICO score access",
+      "Short introductory APR period on purchases"
+    ],
+    "creditCardScoreMin": 630,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.discover.com/products/student-it.html?sc=RJQS&iq_id=r43700079725617932&cmpgnid=ps-dca-google-student-brand-cashback&source=PSGOOGLE&gclid=Cj0KCQiArby5BhCDARIsAIJvjIQoKhyqPS7_97xkzuywqCFwoK6re5lmFqUMl0OHQ4wEArpODJnw5VoaAgJfEALw_wcB&gclsrc=aw.ds",
+    "countryOfOrigin": "USA"
+  },
+  "Delta SkyMiles Gold American Express Card": {
+    "cardName": "Delta SkyMiles Gold American Express Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express National Bank",
+    "annualFee": 150,
+    "APR": "20.24% - 29.24%",
+    "rewards": {
+      "pointsPerDollar": {
+        "dining": 2,
+        "onlineDining": 2,
+        "grocery": 2,
+        "travel": 2,
+        "other": 1
       },
-      "benefits": [
-        "$200 Delta Flight Credit after spending $10,000 in a calendar year",
-        "Free first checked bag",
-        "Priority boarding",
-        "20% rebate on in-flight purchases"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "miles": 50000,
+        "minimumSpend": 2000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "American Express Green Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 150,
-      "APR": "20.49% - 28.49%",
-      "rewards": {
-        "pointsPerDollar": {
-          "travel": 3,
-          "rentalCar": 3,
-          "hotel": 3,
-          "transit": 3,
-          "dining": 3,
-          "other": 1
-        },
-        "signUpBonus": {
-          "points": 40000,
-          "minimumSpend": 3000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "$200 Delta Flight Credit after spending $10,000 in a calendar year",
+      "Free first checked bag",
+      "Priority boarding",
+      "20% rebate on in-flight purchases"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+    "countryOfOrigin": "USA"
+  },
+  "American Express Green Card": {
+    "cardName": "American Express Green Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 150,
+    "APR": "20.49% - 28.49%",
+    "rewards": {
+      "pointsPerDollar": {
+        "travel": 3,
+        "rentalCar": 3,
+        "hotel": 3,
+        "transit": 3,
+        "dining": 3,
+        "other": 1
       },
-      "benefits": [
-        "Trip delay insurance",
-        "$199 CLEAR® Plus Credit",
-        "Secondary auto rental coverage",
-        "No Foreign Transaction Fees"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/green/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 40000,
+        "minimumSpend": 3000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Chase Sapphire Reserve",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 550,
-      "APR": "21.99% - 28.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "travel": 5,
-          "dining": 10,
-          "hotel": 10,
-          "rentalCar": 10,
-          "other": 10
-        },
-        "signUpBonus": {
-          "points": 60000,
-          "minimumSpend": 4000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Trip delay insurance",
+      "$199 CLEAR® Plus Credit",
+      "Secondary auto rental coverage",
+      "No Foreign Transaction Fees"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/green/",
+    "countryOfOrigin": "USA"
+  },
+  "Chase Sapphire Reserve": {
+    "cardName": "Chase Sapphire Reserve",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 550,
+    "APR": "21.99% - 28.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "travel": 5,
+        "dining": 10,
+        "hotel": 10,
+        "rentalCar": 10,
+        "other": 1
       },
-      "benefits": [
-        "$300 annual travel credit",
-        "$1,000 in additional partnership benefit value",
-        "Airport lounge access",
-        "Travel insurance",
-        "Bonus points for certain purchases",
-        "Global Entry or TSA PreCheck® or NEXUS Fee Credit",
-        "No foreign transaction fees"
-      ],
-      "creditCardScoreMin": 720,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 60000,
+        "minimumSpend": 4000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Alaska Airlines Visa Signature Credit Card",
-      "cardType": "Credit Card",
-      "issuer": "Bank of America",
-      "annualFee": 95,
-      "APR": "20.74% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "travel": 3,
-          "gas": 2,
-          "streaming": 2,
-          "other": 1
-        },
-        "signUpBonus": {
-          "miles": 60000,
-          "minimumSpend": 3000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "$300 annual travel credit",
+      "$1,000 in additional partnership benefit value",
+      "Airport lounge access",
+      "Travel insurance",
+      "Bonus points for certain purchases",
+      "Global Entry or TSA PreCheck® or NEXUS Fee Credit",
+      "No foreign transaction fees"
+    ],
+    "creditCardScoreMin": 720,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+    "countryOfOrigin": "USA"
+  },
+  "Alaska Airlines Visa Signature Credit Card": {
+    "cardName": "Alaska Airlines Visa Signature Credit Card",
+    "cardType": "Credit Card",
+    "issuer": "Bank of America",
+    "annualFee": 95,
+    "APR": "20.74% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "travel": 3,
+        "gas": 2,
+        "streaming": 2,
+        "other": 1
       },
-      "benefits": [
-        "Annual Companion Fare (starting at $122) if $6,000 spent in previous card year",
-        "Free checked bag for cardholder and companions",
-        "Priority boarding",
-        "20% rebate on in-flight purchases"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "miles": 60000,
+        "minimumSpend": 3000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Marriott Bonvoy Business Credit Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 125,
-      "APR": "20.24% - 29.24%",
-      "rewards": {
-        "pointsPerDollar": {
-          "hotel": 6,
-          "dining": 4,
-          "gas": 4,
-          "other": 2
-        },
-        "signUpBonus": {
-          "points": 150000,
-          "minimumSpend": 6000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "Annual Companion Fare (starting at $122) if $6,000 spent in previous card year",
+      "Free checked bag for cardholder and companions",
+      "Priority boarding",
+      "20% rebate on in-flight purchases"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/",
+    "countryOfOrigin": "USA"
+  },
+  "Marriott Bonvoy Business Credit Card": {
+    "cardName": "Marriott Bonvoy Business Credit Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 125,
+    "APR": "20.24% - 29.24%",
+    "rewards": {
+      "pointsPerDollar": {
+        "hotel": 6,
+        "dining": 4,
+        "gas": 4,
+        "other": 2
       },
-      "benefits": [
-        "No foreign transaction fees",
-        "Complimentary Marriott Bonvoy Gold Elite Status",
-        "Marriott Bonvoy® Room Rate Discount",
-        "Earn & Redeem Free Nights"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 150000,
+        "minimumSpend": 6000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "United Explorer Card",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 95,
-      "APR": "21.49% - 28.49%",
-      "rewards": {
-        "pointsPerDollar": {
-          "travel": 7,
-          "hotel": 4,
-          "dining": 2,
-          "allOtherPurchases": 1
-        },
-        "signUpBonus": {
-          "miles": 50000,
-          "minimumSpend": 3000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "No foreign transaction fees",
+      "Complimentary Marriott Bonvoy Gold Elite Status",
+      "Marriott Bonvoy® Room Rate Discount",
+      "Earn & Redeem Free Nights"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+    "countryOfOrigin": "USA"
+  },
+  "United Explorer Card": {
+    "cardName": "United Explorer Card",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "APR": "21.49% - 28.49%",
+    "rewards": {
+      "pointsPerDollar": {
+        "travel": 7,
+        "hotel": 4,
+        "dining": 2,
+        "allOtherPurchases": 1
       },
-      "benefits": [
-        "Free first checked bag",
-        "Priority boarding",
-        "Up to $100 Global Entry or TSA PreCheck fee credit",
-        "25% back on eligible in-flight purchases",
-        "2 United Club one-time passes per year"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "miles": 50000,
+        "minimumSpend": 3000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "Amazon Prime Rewards Visa Signature Card",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 0,
-      "APR": "19.99% - 28.74%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "dining": 2,
-          "amazon": 5,
-          "gas": 2
-        },
-        "signUpBonus": {
-          "miles": 20000,
-          "minimumSpend": 0,
-          "timeFrameMonths": 0
-        }
+    "benefits": [
+      "Free first checked bag",
+      "Priority boarding",
+      "Up to $100 Global Entry or TSA PreCheck fee credit",
+      "25% back on eligible in-flight purchases",
+      "2 United Club one-time passes per year"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+    "countryOfOrigin": "USA"
+  },
+  "Amazon Prime Rewards Visa Signature Card": {
+    "cardName": "Amazon Prime Rewards Visa Signature Card",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "APR": "19.99% - 28.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "dining": 2,
+        "amazon": 5,
+        "gas": 2
       },
-      "benefits": [
-        "No annual fee",
-        "High rewards rate on Amazon purchases",
-        "Instant Amazon gift card upon approval",
-        "Prime Card Bonus",
-        "No foreign transaction fees"
-      ],
-      "creditCardScoreMin": 670,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "miles": 20000,
+        "minimumSpend": 0,
+        "timeFrameMonths": 0
+      }
     },
-    {
-      "cardName": "IHG Rewards Club Premier Credit Card",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 99,
-      "APR": "20.99% - 27.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "hotel": 26,
-          "travel": 5,
-          "dining": 5,
-          "gas": 5,
-          "other": 3
-        },
-        "signUpBonus": {
-          "points": 140000,
-          "minimumSpend": 3000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "No annual fee",
+      "High rewards rate on Amazon purchases",
+      "Instant Amazon gift card upon approval",
+      "Prime Card Bonus",
+      "No foreign transaction fees"
+    ],
+    "creditCardScoreMin": 670,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+    "countryOfOrigin": "USA"
+  },
+  "IHG Rewards Club Premier Credit Card": {
+    "cardName": "IHG Rewards Club Premier Credit Card",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 99,
+    "APR": "20.99% - 27.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "hotel": 26,
+        "travel": 5,
+        "dining": 5,
+        "gas": 5,
+        "other": 3
       },
-      "benefits": [
-        "Free night certificate annually",
-        "Automatic Platinum Elite status",
-        "Earn $100 & 10,000 bonus points",
-        "Global Entry, TSA PreCheck or NEXUS fee reimbursement",
-        "Other travel benefits"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "points": 140000,
+        "minimumSpend": 3000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "British Airways Visa Signature Card",
-      "cardType": "Credit Card",
-      "issuer": "Chase",
-      "annualFee": 95,
-      "APR": "20.99% - 27.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "travel": 3,
-          "hotel": 2,
-          "other": 1
-        },
-        "signUpBonus": {
-          "avios": 85000,
-          "minimumSpend": 5000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Free night certificate annually",
+      "Automatic Platinum Elite status",
+      "Earn $100 & 10,000 bonus points",
+      "Global Entry, TSA PreCheck or NEXUS fee reimbursement",
+      "Other travel benefits"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+    "countryOfOrigin": "USA"
+  },
+  "British Airways Visa Signature Card": {
+    "cardName": "British Airways Visa Signature Card",
+    "cardType": "Credit Card",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "APR": "20.99% - 27.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "travel": 3,
+        "hotel": 2,
+        "other": 1
       },
-      "benefits": [
-        "10% discount on British Airways flights from the U.S.",
-        "No foreign transaction fees",
-        "Up to $600 Reward Flight Statement Credits",
-        "Purchase Protection"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "avios": 85000,
+        "minimumSpend": 5000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "American Express Blue Card",
-      "cardType": "Credit Card",
-      "issuer": "American Express",
-      "annualFee": 0,
-      "APR": "18.49% - 29.49%",
-      "rewards": {
-        "pointsPerDollar": {
-          "other": 1,
-          "retail": 3,
-          "grocery": 6,
-          "gas": 3
-        },
-        "signUpBonus": {
-          "cash": 250,
-          "minimumSpend": 2000,
-          "timeFrameMonths": 6
-        }
+    "benefits": [
+      "10% discount on British Airways flights from the U.S.",
+      "No foreign transaction fees",
+      "Up to $600 Reward Flight Statement Credits",
+      "Purchase Protection"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+    "countryOfOrigin": "USA"
+  },
+  "American Express Blue Card": {
+    "cardName": "American Express Blue Card",
+    "cardType": "Credit Card",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "APR": "18.49% - 29.49%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1,
+        "retail": 3,
+        "grocery": 6,
+        "gas": 3
       },
-      "benefits": [
-        "Access to Amex’s Pay It Plan It program",
-        "Various statement credits",
-        "Rewards programs associated with specific purchases",
-        "$84 Disney Bundle Credit",
-        "$180 Home Chef Credit",
-        "Send & Split",
-        "Events with Amex"
-      ],
-      "creditCardScoreMin": 690,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
-      "countryOfOrigin": "USA"
+      "signUpBonus": {
+        "cash": 250,
+        "minimumSpend": 2000,
+        "timeFrameMonths": 6
+      }
     },
-    {
-      "cardName": "Scotiabank Gold American Express Card",
-      "cardType": "Credit Card",
-      "issuer": "Scotiabank",
-      "annualFee": 120,
-      "APR": "20.99% - 22.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "grocery": 6,
-          "dining": 5,
-          "entertainment": 5,
-          "gas": 3,
-          "streaming": 3
-        },
-        "signUpBonus": {
-          "points": 25000,
-          "minimumSpend": 1000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "Access to Amex’s Pay It Plan It program",
+      "Various statement credits",
+      "Rewards programs associated with specific purchases",
+      "$84 Disney Bundle Credit",
+      "$180 Home Chef Credit",
+      "Send & Split",
+      "Events with Amex"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+    "countryOfOrigin": "USA"
+  },
+  "Scotiabank Gold American Express Card": {
+    "cardName": "Scotiabank Gold American Express Card",
+    "cardType": "Credit Card",
+    "issuer": "Scotiabank",
+    "annualFee": 120,
+    "APR": "20.99% - 22.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "grocery": 6,
+        "dining": 5,
+        "entertainment": 5,
+        "gas": 3,
+        "streaming": 3
       },
-      "benefits": [
-        "No foreign transaction fees",
-        "Travel insurance",
-        "Access to exclusive American Express events",
-        "Concierge services"
-      ],
-      "creditCardScoreMin": 650,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
-      "countryOfOrigin": "Canada"
+      "signUpBonus": {
+        "points": 25000,
+        "minimumSpend": 1000,
+        "timeFrameMonths": 3
+      }
     },
-    {
-      "cardName": "BMO Air Miles Mastercard",
-      "cardType": "Credit Card",
-      "issuer": "BMO",
-      "annualFee": 0,
-      "APR": "20.99%",
-      "rewards": {
-        "pointsPerDollar": {
-          "gas": 4,
-          "grocery": 2,
-          "rentalCar": 3,
-          "other": 1
-        },
-        "signUpBonus": {
-          "points": 800,
-          "minimumSpend": 1000,
-          "timeFrameMonths": 3
-        }
+    "benefits": [
+      "No foreign transaction fees",
+      "Travel insurance",
+      "Access to exclusive American Express events",
+      "Concierge services"
+    ],
+    "creditCardScoreMin": 650,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+    "countryOfOrigin": "Canada"
+  },
+  "BMO Air Miles Mastercard": {
+    "cardName": "BMO Air Miles Mastercard",
+    "cardType": "Credit Card",
+    "issuer": "BMO",
+    "annualFee": 0,
+    "APR": "20.99%",
+    "rewards": {
+      "pointsPerDollar": {
+        "gas": 4,
+        "grocery": 2,
+        "rentalCar": 3,
+        "other": 1
       },
-      "benefits": [
-        "Purchase protection",
-        "No foreign transaction fees",
-        "Extended warranty",
-        "Discounts with specific retailers"
-      ],
-      "creditCardScoreMin": 660,
-      "creditCardScoreMax": 850,
-      "linkToApply": "https://www.bmo.com/main/personal/credit-cards/bmo-airmiles-mastercard/",
-      "countryOfOrigin": "Canada"
-    }
-  ]
+      "signUpBonus": {
+        "points": 800,
+        "minimumSpend": 1000,
+        "timeFrameMonths": 3
+      }
+    },
+    "benefits": [
+      "Purchase protection",
+      "No foreign transaction fees",
+      "Extended warranty",
+      "Discounts with specific retailers"
+    ],
+    "creditCardScoreMin": 660,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.bmo.com/main/personal/credit-cards/bmo-airmiles-mastercard/",
+    "countryOfOrigin": "Canada"
+  }
 }
