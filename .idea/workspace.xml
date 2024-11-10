@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c60e1d5-9805-4d84-b065-880451d6d79e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/recommendation-logic/credit-card-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-logic/recommender.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-logic/tx-data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommendation-logic/tx-data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation-logic/mcc_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation-logic/user-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/credit-card-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-logic/credit-card-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/recommender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-logic/recommender.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/tx-data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-logic/tx_data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -81,7 +84,7 @@
       <workItem from="1731198360206" duration="480000" />
       <workItem from="1731199179837" duration="1241000" />
       <workItem from="1731200430742" duration="3240000" />
-      <workItem from="1731204287399" duration="5755000" />
+      <workItem from="1731204287399" duration="14588000" />
     </task>
     <servers />
   </component>
