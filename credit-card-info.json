@@ -43,7 +43,7 @@
           "pointsPerDollar": {
             "other": 2,
             "travel": 5,
-            "hotels": 5,
+            "hotel": 5,
             "rentalCar": 5,
             "vacationRental": 5
           },
@@ -75,7 +75,7 @@
         "pointsPerDollar": {
             "other": 1,
             "travel": 5,
-            "hotels": 5
+            "hotel": 5
           },
           "signUpBonus": {
             "points": 80000,
@@ -338,7 +338,7 @@
             "other": 1,
             "entertainment": 8,
             "dining": 3,
-            "hotels": 5,
+            "hotel": 5,
             "rentalCar": 5,
             "travel": 5
           },
@@ -476,7 +476,6 @@
             "hotel": 10,
             "rentalCar":10,
             "travel": 3,
-            "hotels":3,
             "dining": 3,
             "grocery":3,
             "gas":3,
@@ -524,7 +523,7 @@
         "APR": "18.74% - 28.74%",
         "rewards": {
           "pointsPerDollar": {
-            "allPurchases": 1.5
+            "other": 1.5
           },
           "signUpBonus": {
             "points": 25000,
