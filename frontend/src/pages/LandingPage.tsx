@@ -168,7 +168,7 @@ const LandingPage: React.FC = () => {
                 <div className="flex items-center space-x-8">
                     <div className="text-white text-xl font-semibold flex items-center">
                         <div className="w-6 h-6 bg-lime-400 rounded-full mr-2" />
-                        CardAdvise
+                        NoCapAd
                     </div>
                 </div>
             </nav>
@@ -328,7 +328,7 @@ const LandingPage: React.FC = () => {
                                     </div>
                                     <div className="text-sm opacity-75">
                                         <img src={CapLogo} alt="Capital One Logo"
-                                             style={{ width: '100px', height: '50px' }} />
+                                             style={{ width: '85px', height: 'auto' }} />
                                     </div>
                                 </div>
                             </div>
