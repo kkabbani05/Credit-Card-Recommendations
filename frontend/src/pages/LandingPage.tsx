@@ -2,6 +2,7 @@
 import React, { useState, useRef, ChangeEvent, FormEvent } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import CapLogo from './CapLogo.png';
 import {
   Dialog,
   DialogTitle,
@@ -85,7 +86,7 @@ const LandingPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800">
+    <div className="min-h-screen bg-gradient-to-t from-slate-900 to-slate-800">
       <nav className="px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <div className="text-white text-xl font-semibold flex items-center">
@@ -225,7 +226,7 @@ const LandingPage: React.FC = () => {
 
         {/* Card Preview Section */}
         <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent" />
+          <div className="absolute inset-0  from-slate-900 to-transparent rounded-2xl" />
           <div className="grid grid-cols-3 gap-6">
             {/* Preview sections remain unchanged */}
             <div className="bg-slate-800/50 p-6 rounded-2xl backdrop-blur">
@@ -240,15 +241,15 @@ const LandingPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-slate-800 to-slate-700 p-6 rounded-2xl">
-              <div className="aspect-video bg-gradient-to-br from-slate-600 to-slate-700 rounded-xl p-4 text-white">
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-2xl">
+              <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-800 rounded-xl p-4 text-white">
                 <div className="flex justify-between items-start">
                   <div className="space-y-4">
                     <div className="w-12 h-8 bg-lime-400 rounded" />
                     <div className="text-lg">•••• 4242</div>
                   </div>
                   <div className="text-sm opacity-75">
-                    {/* Removed CapitalOne logo reference */}
+                    <img src={CapLogo} alt="Capital One Logo" style={{ width: '100px', height: '50px' }} />
                   </div>
                 </div>
               </div>
