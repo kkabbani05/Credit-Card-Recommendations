@@ -592,7 +592,7 @@ const Dashboard: React.FC = () => {
                 >
                   <div className="px-6 pb-6">
                     <div className="border-t border-slate-700 pt-6">
-                      <CreditCardInfo cardData={card.card_info} />
+                      <CreditCardInfo recReason={card.rec_reasoning} cardData={card.card_info} />
                     </div>
                   </div>
                 </div>
