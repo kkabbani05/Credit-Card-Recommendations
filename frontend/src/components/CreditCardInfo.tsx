@@ -5,7 +5,8 @@ import {
   DollarSign,
   Gift,
   Shield,
-  Star
+  Star,
+  Sparkle
 } from "lucide-react";
 
 interface PointsPerDollar {
@@ -47,11 +48,13 @@ interface CardData {
 }
 
 interface CreditCardRecommendationProps {
+  recReason: string;
   cardData: CardData;
   className?: string;
 }
 
 const CreditCardRecommendation: React.FC<CreditCardRecommendationProps> = ({
+  recReason,
   cardData,
   className = ""
 }) => {
@@ -80,6 +83,15 @@ const CreditCardRecommendation: React.FC<CreditCardRecommendationProps> = ({
       </div>
 
       {/* Rewards Section */}
+      <div>
+      <h4 className="flex items-center gap-2 text-lg font-semibold mb-4">
+          <Sparkle className="w-5 h-5 text-lime-400" />
+          Why the Recommendation?
+      </h4>
+      <div className="mb-7 text-left ml-4">
+        {recReason}
+      </div>
+      </div>
       <div className="mb-8">
         <h4 className="flex items-center gap-2 text-lg font-semibold mb-4">
           <Award className="w-5 h-5 text-lime-400" />
