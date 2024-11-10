@@ -172,7 +172,7 @@
           "other": 2
         },
         "signUpBonus": {
-          "cash": 200,
+          "points": 200,
           "minimumSpend": 1500,
           "timeFrameMonths": 6
         }
@@ -204,7 +204,7 @@
           "travel": 3
         },
         "signUpBonus": {
-          "cash": 250,
+          "points": 250,
           "minimumSpend": 3000,
           "timeFrameMonths": 6
         }
@@ -235,7 +235,7 @@
           "categories": 500
         },
         "signUpBonus": {
-          "cash": 200,
+          "points": 200,
           "minimumSpend": 1500,
           "timeFrameMonths": 6
         }
@@ -263,7 +263,7 @@
           "travel": 5
         },
         "signUpBonus": {
-          "cash": 200,
+          "points": 200,
           "minimumSpend": 500,
           "timeFrameMonths": 3
         }
@@ -311,7 +311,7 @@
           "categories": 1500
         },
         "signUpBonus": {
-          "cash": 200,
+          "points": 200,
           "minimumSpend": 500,
           "timeFrameMonths": 3
         }
@@ -343,7 +343,7 @@
           "travel": 5
         },
         "signUpBonus": {
-          "cash": 250,
+          "points": 250,
           "minimumSpend": 500,
           "timeFrameMonths": 3
         }
@@ -373,7 +373,7 @@
           "travel": 5
         },
         "signUpBonus": {
-          "cash": 200,
+          "points": 200,
           "minimumSpend": 1000,
           "timeFrameMonths": 3
         }
@@ -862,7 +862,7 @@
           "gas": 3
         },
         "signUpBonus": {
-          "cash": 250,
+          "points": 250,
           "minimumSpend": 2000,
           "timeFrameMonths": 6
         }
