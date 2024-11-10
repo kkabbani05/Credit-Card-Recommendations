@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-from mcc_map import convert_mcc_to_category
+from backend.flask_app.utils.mcc_map import convert_mcc_to_category
 from pydantic import BaseModel, ValidationError
 
 from openai import OpenAI
@@ -35,13 +35,13 @@ def validate_user_info(data: dict) -> bool:
         return False
 
 
-from flask import Flask, abort, jsonify, request
+from flask import Flask, jsonify, request
 
 tx_data = None
 user_info = None
 
 # Import credit card data
-with open("../data/credit-card-data.json", "rb") as file:
+with open("data/credit-card-data.json", "rb") as file:
     credit_card_info = json.load(file)
 
 app = Flask(__name__)
@@ -105,10 +105,10 @@ def recommend():
 
     client = OpenAI()
 
-    with open("../prompts/sys-prompt.txt", "r") as file:
+    with open("prompts/sys-prompt.txt", "r") as file:
         sys_prompt = file.read()
 
-    with open("../prompts/rec-prompt.txt", "r") as file:
+    with open("prompts/rec-prompt.txt", "r") as file:
         rec_prompt = file.read()
 
     class CreditCardRec(BaseModel):

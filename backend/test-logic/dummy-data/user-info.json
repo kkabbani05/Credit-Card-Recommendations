@@ -1,0 +1,9 @@
+{
+  "username": "kkabbani",
+  "password": "testing123",
+  "income": 100000.0,
+  "age": 20,
+  "oldestAccountLengthYears": 5,
+  "creditScore": 800,
+  "annualFeeWillingness": 800.0
+}

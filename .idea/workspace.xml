@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c60e1d5-9805-4d84-b065-880451d6d79e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/flask_app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/prompts/rec-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/prompts/sys-prompt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/recommendation-logic/mcc_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/credit-card-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-logic/credit-card-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/credit-card-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-logic/mcc_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/mcc_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-logic/recommender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/recommendation-logic/recommender.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-logic/tx-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/dummy/tx-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-logic/tx_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/recommendation-logic/tx_data.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-logic/user-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/dummy/user-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/credit-card-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/data/credit-card-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/dummy/tx-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/tx-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/dummy/user-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/dummy-data/user-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flask_app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flask_app/mcc_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/utils/mcc_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prompts/rec-prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/prompts/rec-prompt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prompts/sys-prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/prompts/sys-prompt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/recommendation-logic/mcc_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/mcc_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/recommendation-logic/recommender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/recommender.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/recommendation-logic/tx_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test-logic/tx_data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     "dart.analysis.tool.window.visible": "false",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "backend",
-    "last_opened_file_path": "/Users/n1v3x/Development/React/credit-card-recommendations/backend/flask_app",
+    "last_opened_file_path": "/Users/n1v3x/Development/React/credit-card-recommendations/backend/test-logic/dummy-data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,14 +64,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/test-logic/dummy-data" />
       <recent name="$PROJECT_DIR$/backend/flask_app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/flask_app/utils" />
+      <recent name="$PROJECT_DIR$/backend/flask_app" />
+      <recent name="$PROJECT_DIR$/backend/recommendation-logic" />
       <recent name="$PROJECT_DIR$/backend/data/dummy" />
       <recent name="$PROJECT_DIR$/backend/data" />
-      <recent name="$PROJECT_DIR$/backend/prompts" />
-      <recent name="$PROJECT_DIR$/backend" />
-      <recent name="$PROJECT_DIR$/recommendation-logic" />
     </key>
   </component>
   <component name="SharedIndexes">
