@@ -883,65 +883,122 @@
     "linkToApply": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
     "countryOfOrigin": "USA"
   },
-  "Scotiabank Gold American Express Card": {
-    "cardName": "Scotiabank Gold American Express Card",
+  "Southwest Rapid Rewards® Plus Credit Card": {
+    "cardName": "Southwest Rapid Rewards® Plus Credit Card",
     "cardType": "Credit Card",
-    "issuer": "Scotiabank",
-    "annualFee": 120,
-    "APR": "20.99% - 22.99%",
+    "issuer": "Chase",
+    "annualFee": 69,
+    "APR": "20.99% - 27.99%",
     "rewards": {
       "pointsPerDollar": {
-        "grocery": 6,
-        "dining": 5,
-        "entertainment": 5,
-        "gas": 3,
-        "streaming": 3
+        "travel": 2,
+        "other": 1,
+        "streaming": 2
       },
       "signUpBonus": {
-        "points": 25000,
+        "points": 50000,
         "minimumSpend": 1000,
         "timeFrameMonths": 3
       }
     },
     "benefits": [
-      "No foreign transaction fees",
-      "Travel insurance",
-      "Access to exclusive American Express events",
-      "Concierge services"
+      "Anniversary bonus of 3,000 points every new cardmember year.",
+      "2 EarlyBird Check-In® each year."
     ],
-    "creditCardScoreMin": 650,
+    "creditCardScoreMin": 690,
     "creditCardScoreMax": 850,
-    "linkToApply": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
-    "countryOfOrigin": "Canada"
+    "linkToApply": "https://creditcards.chase.com/travel-credit-cards/southwest/plus?CELL=6W2D",
+    "countryOfOrigin": "USA"
   },
-  "BMO Air Miles Mastercard": {
-    "cardName": "BMO Air Miles Mastercard",
+  "Quicksilver from Capital One": {
+    "cardName": "Quicksilver from Capital One",
     "cardType": "Credit Card",
-    "issuer": "BMO",
+    "issuer": "Capital One",
     "annualFee": 0,
-    "APR": "20.99%",
+    "APR": "19.74% - 29.74%",
     "rewards": {
       "pointsPerDollar": {
-        "gas": 4,
-        "grocery": 2,
-        "rentalCar": 3,
-        "other": 1
+        "other": 1.5,
+        "hotel": 5,
+        "rentalCar": 5
       },
       "signUpBonus": {
-        "points": 800,
-        "minimumSpend": 1000,
+        "miles": 20000,
+        "minimumSpend": 500,
         "timeFrameMonths": 3
       }
     },
     "benefits": [
-      "Purchase protection",
       "No foreign transaction fees",
-      "Extended warranty",
-      "Discounts with specific retailers"
+      "Travel accident insurance",
+      "Extended Warranty",
+      "50% off Handcrafted Beverages",
+      "Complimentary Concierge Service"
     ],
-    "creditCardScoreMin": 660,
+    "creditCardScoreMin": 690,
     "creditCardScoreMax": 850,
-    "linkToApply": "https://www.bmo.com/main/personal/credit-cards/bmo-airmiles-mastercard/",
-    "countryOfOrigin": "Canada"
+    "linkToApply": "https://www.capitalone.com/credit-cards/quicksilver/",
+    "countryOfOrigin": "USA"
+  },
+  "Capital One Venture X": {
+    "cardName": "Capital One Venture X",
+    "cardType": "Credit Card",
+    "issuer": "Capital One",
+    "annualFee": 395,
+    "APR": "19.99% - 29.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 2,
+        "travel":5,
+        "hotel": 10,
+        "rentalCar": 10
+      },
+      "signUpBonus": {
+        "miles": 75000 ,
+        "minimumSpend": 4000,
+        "timeFrameMonths": 3
+      }
+    },
+    "benefits": [
+      "No foreign transaction fees",
+      "10,000 Miles Anniversary Bonus",
+      "$300 Annual Travel Credit",
+      "$120 Global Entry or TSA PreCheck® Credit",
+      "Complimentary Concierge Service & Partner Lounge Network",
+      "Free Additional Cardholders",
+      "Cell Phone Protection"
+    ],
+    "creditCardScoreMin": 720,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.capitalone.com/credit-cards/venture-x/",
+    "countryOfOrigin": "USA"
+  },
+  "VentureOne Rewards from Capital One": {
+    "cardName": "VentureOne Rewards from Capital One",
+    "cardType": "Credit Card",
+    "issuer": "Capital One",
+    "annualFee": 0  ,
+    "APR": "19.74% - 29.74%",
+    "rewards": {
+      "pointsPerDollar": {
+        "other": 1.25,
+        "hotel": 5,
+        "rentalCar": 5
+      },
+      "signUpBonus": {
+        "miles": 20000 ,
+        "minimumSpend": 500,
+        "timeFrameMonths": 3
+      }
+    },
+    "benefits": [
+      "No foreign transaction fees",
+      "Redeem Miles for Travel",
+      "Redeem With Ease"
+    ],
+    "creditCardScoreMin": 690,
+    "creditCardScoreMax": 850,
+    "linkToApply": "https://www.capitalone.com/credit-cards/ventureone/",
+    "countryOfOrigin": "USA"
   }
 }
