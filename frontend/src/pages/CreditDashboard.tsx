@@ -68,6 +68,7 @@ interface CardData {
 interface CreditCardRec {
     rec_reasoning: string;
     card_name: string;
+    card_info: CardData;
 }
 
 interface RecommendationResponse {
@@ -128,7 +129,7 @@ const Dashboard: React.FC = () => {
     const [expandAnimation, setExpandAnimation] = useState<boolean>(false);
     const cardRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
 
-    const targetScore = 755;
+    const targetScore = userInfo.creditScore;
     const maxScore = 850;
 
     const radius = 85;
@@ -183,127 +184,6 @@ const Dashboard: React.FC = () => {
             }, 50);
         }
     };
-
-    const cardData: CardData[] = [
-        {
-            cardName: "Chase Sapphire Preferred Card",
-            cardType: "Credit Card",
-            issuer: "Chase",
-            annualFee: 95,
-            APR: "20.99% - 27.99%",
-            rewards: {
-                pointsPerDollar: {
-                    travel: 5,
-                    dining: 3,
-                    onlineGrocery: 3,
-                    streaming: 3,
-                    other: 1,
-                    hotel: 0,
-                    rentalCar: 0,
-                    vacationRental: 0
-                },
-                signUpBonus: {
-                    points: 60000,
-                    minimumSpend: 4000,
-                    timeFrameMonths: 3
-                }
-            },
-            benefits: [
-                "$300 in travel credits in the first year",
-                "Primary rental car insurance",
-                "No foreign transaction fees",
-                "$150 in additional partnership benefit value",
-                "1:1 point transfer with partners",
-                "Travel and purchase coverage"
-            ],
-            creditCardScoreMin: 650,
-            creditCardScoreMax: 850,
-            linkToApply:
-                "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-            countryOfOrigin: "USA",
-            difficulty_rating: 3
-        },
-        {
-            cardName: "Capital One Venture Rewards Credit Card",
-            cardType: "Credit Card",
-            issuer: "Capital One",
-            annualFee: 95,
-            APR: "19.99% - 29.74%",
-            rewards: {
-                pointsPerDollar: {
-                    other: 2,
-                    travel: 5,
-                    hotel: 5,
-                    rentalCar: 5,
-                    vacationRental: 5,
-                    dining: 0,
-                    onlineGrocery: 0,
-                    streaming: 0
-                },
-                signUpBonus: {
-                    points: 75000,
-                    minimumSpend: 4000,
-                    timeFrameMonths: 3
-                }
-            },
-            benefits: [
-                "No foreign transaction fees",
-                "Travel accident insurance",
-                "Auto rental coverage",
-                "Credit of up to $120 for the application fee for Global Entry or TSA Precheck when you pay with the card.",
-                "Extended warranty on eligible items."
-            ],
-            creditCardScoreMin: 700,
-            creditCardScoreMax: 850,
-            linkToApply: "https://www.capitalone.com/credit-cards/venture/",
-            countryOfOrigin: "USA",
-            difficulty_rating: 3
-        },
-        {
-            cardName: "AmEx Platinum Card",
-            cardType: "Credit Card",
-            issuer: "American Express",
-            annualFee: 695,
-            APR: "20.49% - 28.49%",
-            rewards: {
-                pointsPerDollar: {
-                    other: 1,
-                    travel: 5,
-                    hotel: 5,
-                    dining: 0,
-                    onlineGrocery: 0,
-                    streaming: 0,
-                    rentalCar: 0,
-                    vacationRental: 0
-                },
-                signUpBonus: {
-                    points: 80000,
-                    minimumSpend: 8000,
-                    timeFrameMonths: 6
-                }
-            },
-            benefits: [
-                "American Express Global Lounge Collection",
-                "$200 airline fee credit",
-                "$200 Uber Cash",
-                "$240 digital entertainment credit",
-                "$200 hotel credit annually",
-                "Various travel protections",
-                "$199 CLEAR® Plus Credit",
-                "Fine Hotels + Resorts and The Hotel Collection",
-                "Global Dining Access by Resy",
-                "Premium Car Rental Protection",
-                "Walmart+ Monthly Membership Credit",
-                "Cell Phone Protection",
-                "$100 Shop Saks With Platinum"
-            ],
-            creditCardScoreMin: 690,
-            creditCardScoreMax: 850,
-            linkToApply: "https://card.americanexpress.com/d/platinum-card/",
-            countryOfOrigin: "USA",
-            difficulty_rating: 5
-        }
-    ];
 
     // Function to safely get max points
     const getMaxPoints = (pointsPerDollar: PointsPerDollar): number => {
@@ -484,34 +364,34 @@ const Dashboard: React.FC = () => {
                         Credit Card Recommendation
                     </h2>
                     <div className="flex flex-col gap-6 w-[50vw]">
-                        {cardData.map((card, index) => (
+                        {recommendations.recommendations.map((card, index) => (
                             <div
                                 key={index}
-                                ref={el => cardRefs.current[card.cardName] = el}
+                                ref={el => cardRefs.current[card.card_info.cardName] = el}
                                 className="bg-slate-800/50 rounded-2xl transition-all duration-500 ease-in-out overflow-hidden"
                             >
                                 <div
                                     className="p-6 cursor-pointer hover:bg-slate-800/70 transition-colors"
-                                    onClick={() => handleCardClick(card.cardName)}
+                                    onClick={() => handleCardClick(card.card_info.cardName)}
                                 >
                                     <div className="flex justify-between items-center mb-4">
                                         <div className="text-gray-400 text-xl">
-                                            {card.cardName}
+                                            {card.card_info.cardName}
                                         </div>
                                         <div className="flex items-center gap-2">
                                             <div className="flex items-center gap-4 text-sm">
                         <span className="px-2 py-1 rounded-full bg-lime-400/20 text-lime-400">
-                          ${card.annualFee}/year
+                          ${card.card_info.annualFee}/year
                         </span>
                                                 <span
                                                     className="px-2 py-1 rounded-full bg-yellow-400/20 text-yellow-400">
-                          {card.creditCardScoreMin}+ Credit Score
+                          {card.card_info.creditCardScoreMin}+ Credit Score
                         </span>
                                                 <span className="px-2 py-1 rounded-full bg-blue-400/20 text-blue-400">
-                          {getMaxPoints(card.rewards.pointsPerDollar)}x Max Points
+                          {getMaxPoints(card.card_info.rewards.pointsPerDollar)}x Max Points
                         </span>
                                             </div>
-                                            {expandedCard === card.cardName ? (
+                                            {expandedCard === card.card_info.cardName ? (
                                                 <ArrowUp className="w-4 h-4 text-gray-400"/>
                                             ) : (
                                                 <ArrowDown className="w-4 h-4 text-gray-400"/>
@@ -525,7 +405,7 @@ const Dashboard: React.FC = () => {
                     transition-all
                     duration-500
                     ease-in-out
-                    ${expandedCard === card.cardName
+                    ${expandedCard === card.card_info.cardName
                                         ? 'max-h-[2000px] opacity-100'
                                         : 'max-h-0 opacity-0'
                                     }
@@ -533,7 +413,7 @@ const Dashboard: React.FC = () => {
                                 >
                                     <div className="px-6 pb-6">
                                         <div className="border-t border-slate-700 pt-6">
-                                            <CreditCardInfo cardData={card}/>
+                                            <CreditCardInfo cardData={card.card_info}/>
                                         </div>
                                     </div>
                                 </div>

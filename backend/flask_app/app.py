@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-from io import StringIO, BytesIO
+from io import StringIO
 from mcc_map import convert_mcc_to_category
 from pydantic import BaseModel, ValidationError
 from openai import OpenAI
@@ -32,7 +32,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Import credit card data
-with open("../data/credit-card-data.json", "rb") as file:
+with open("data/credit-card-data.json", "rb") as file:
     credit_card_info = json.load(file)
 
 
@@ -73,9 +73,9 @@ def recommend():
         validated_user_info = UserInfo(**user_info)  # Validate user info
 
         # Load prompts
-        with open("../prompts/sys-prompt.txt", "r") as f:
+        with open("prompts/sys-prompt.txt", "r") as f:
             sys_prompt = f.read()
-        with open("../prompts/rec-prompt.txt", "r") as f:
+        with open("prompts/rec-prompt.txt", "r") as f:
             rec_prompt = f.read()
 
         # Get recommendations
@@ -93,7 +93,12 @@ def recommend():
             response_format=RecommendationResponse,
         )
 
-        return jsonify(completion.choices[0].message.parsed.model_dump()), 200
+        rec_json = completion.choices[0].message.parsed.model_dump()
+        for rec in rec_json["recommendations"]:
+            card_name = rec["card_name"]
+            rec["card_info"] = credit_card_info[card_name]
+
+        return jsonify(rec_json), 200
 
     except ValidationError as e:
         return jsonify({"error": "Invalid user info format", "details": str(e)}), 400
