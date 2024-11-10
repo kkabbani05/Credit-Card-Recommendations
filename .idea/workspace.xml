@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c60e1d5-9805-4d84-b065-880451d6d79e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/flask_app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/prompts/rec-prompt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/prompts/sys-prompt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/recommendation-logic/mcc_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/credit-card-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/credit-card-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/mcc_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flask_app/mcc_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/recommender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/recommendation-logic/recommender.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/tx-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/dummy/tx-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/tx_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/recommendation-logic/tx_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-logic/user-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/dummy/user-info.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2odJXp8QwXDQM4lIgianQ4vg4Sy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "backend",
+    "last_opened_file_path": "/Users/n1v3x/Development/React/credit-card-recommendations/backend/flask_app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/flask_app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/data/dummy" />
+      <recent name="$PROJECT_DIR$/backend/data" />
+      <recent name="$PROJECT_DIR$/backend/prompts" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/recommendation-logic" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c60e1d5-9805-4d84-b065-880451d6d79e" name="Changes" comment="" />
+      <created>1731193561676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731193561676</updated>
+      <workItem from="1731193562706" duration="37000" />
+      <workItem from="1731193600584" duration="106000" />
+      <workItem from="1731195859287" duration="80000" />
+      <workItem from="1731195940844" duration="1475000" />
+      <workItem from="1731197982537" duration="370000" />
+      <workItem from="1731198360206" duration="480000" />
+      <workItem from="1731199179837" duration="1241000" />
+      <workItem from="1731200430742" duration="3240000" />
+      <workItem from="1731204287399" duration="22857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/credit_card_recommendations$app.coverage" NAME="app Coverage Results" MODIFIED="1731225461671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/flask_app" />
+  </component>
+</project>
