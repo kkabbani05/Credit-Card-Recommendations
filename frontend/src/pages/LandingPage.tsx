@@ -181,209 +181,205 @@ const LandingPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-t from-slate-900 to-slate-800">
-  {isLoading && (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
-      <div className="animate-spin rounded-full h-12 w-12 border-4 border-green-500 border-t-transparent"></div>
-    </div>
-  )}
-  <nav className="px-6 py-4 flex items-center justify-between">
-    <div className="flex items-center space-x-8">
-      <div className="text-white text-xl font-semibold flex items-center">
-        <div className="w-6 h-6 bg-lime-400 rounded-full mr-2" />
-        NoCapAd
-      </div>
-    </div>
-  </nav>
+      {isLoading && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+          <div className="animate-spin rounded-full h-12 w-12 border-4 border-green-500 border-t-transparent"></div>
+        </div>
+      )}
+      <nav className="px-6 py-4 flex items-center justify-between">
+        <div className="flex items-center space-x-8">
+          <div className="text-white text-xl font-semibold flex items-center">
+            <div className="w-6 h-6 bg-lime-400 rounded-full mr-2" />
+            NoCapAd
+          </div>
+        </div>
+      </nav>
 
-  <main className="max-w-6xl mx-auto px-6 pt-20">
-    <div className="text-center mb-16">
-      <div className="inline-block mb-4 px-4 py-2 bg-slate-800/50 rounded-full text-gray-300 text-sm">
-        AI Powered Recommendations
-      </div>
-      <h1 className="text-4xl font-bold text-white mb-6 sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl">
-        Find Your Perfect <span className="text-lime-400">Card Match</span>
-      </h1>
-      <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
-        Experience personalized credit card recommendations based on your
-        spending habits and lifestyle. Get matched with the best rewards
-        programs instantly.
-      </p>
-      <div className="flex justify-center space-x-4 mb-5 flex-col sm:flex-row">
-        <input
-          type="file"
-          accept=".csv"
-          ref={fileInputRef}
-          onChange={handleFileUpload}
-          className="hidden"
-        />
-        <Button
-          variant="outlined"
-          sx={{
-            color: "white",
-            borderColor: "gray",
-            "&:hover": {
-              backgroundColor: csvUploaded
-                ? "#84cc16"
-                : "rgba(30, 41, 59, 0.5)",
-              borderColor: "gray"
-            },
-            backgroundColor: csvUploaded ? "#84cc16" : "transparent"
-          }}
-          onClick={() => fileInputRef.current?.click()}
-          className="mb-4 sm:mb-0"
-        >
-          {csvUploaded ? "CSV Uploaded ✓" : "Upload Transaction History"}
-        </Button>
-        <Button
-          variant="outlined"
-          sx={{
-            color: "white",
-            borderColor: "gray",
-            "&:hover": {
-              backgroundColor: userInfoSubmitted
-                ? "#84cc16"
-                : "rgba(30, 41, 59, 0.5)",
-              borderColor: "gray"
-            },
-            backgroundColor: userInfoSubmitted ? "#84cc16" : "transparent"
-          }}
-          onClick={() => setIsDialogOpen(true)}
-          className="mb-4 sm:mb-0"
-        >
-          {userInfoSubmitted ? "Info Submitted ✓" : "Enter User Info"}
-        </Button>
-      </div>
-      <div className="flex justify-center space-x-4">
-        <Button
-          variant="contained"
-          sx={{
-            backgroundColor:
-              csvUploaded && userInfoSubmitted ? "#84cc16" : "#334155",
-            color: csvUploaded && userInfoSubmitted ? "#0f172a" : "#94a3b8",
-            "&:hover": {
-              backgroundColor:
-                csvUploaded && userInfoSubmitted ? "#65a30d" : "#334155"
-            },
-            "&.Mui-disabled": {
-              backgroundColor: "#334155",
-              color: "#94a3b8"
-            }
-          }}
-          onClick={handleRecommendations}
-          disabled={!csvUploaded || !userInfoSubmitted}
-          endIcon={<ChevronRight />}
-        >
-          Get Matched Now
-        </Button>
-      </div>
-    </div>
-
-    {/* User Info Dialog */}
-    <Dialog
-      open={isDialogOpen}
-      onClose={() => setIsDialogOpen(false)}
-      PaperProps={{
-        sx: {
-          backgroundColor: "#1e293b",
-          color: "white"
-        }
-      }}
-    >
-      <DialogTitle>Enter User Information</DialogTitle>
-      <DialogContent>
-        <Box component="form" onSubmit={handleFormSubmit} sx={{ mt: 2 }}>
-          {Object.keys(formData).map((field) => (
-            <TextField
-              key={field}
-              fullWidth
-              margin="normal"
-              label={field.replace(/([A-Z])/g, " $1").trim()}
-              name={field}
-              type={field === "password" ? "password" : "text"}
-              value={formData[field as keyof UserFormData]}
-              onChange={handleFormChange}
+      <main className="max-w-6xl mx-auto px-6 pt-20">
+        <div className="text-center mb-16">
+          <div className="inline-block mb-4 px-4 py-2 bg-slate-800/50 rounded-full text-gray-300 text-sm">
+            AI Powered Recommendations
+          </div>
+          <h1 className="text-6xl font-bold text-white mb-6">
+            Find Your Perfect <span className="text-lime-400">Card Match</span>
+          </h1>
+          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            Experience personalized credit card recommendations based on your
+            spending habits and lifestyle. Get matched with the best rewards
+            programs instantly.
+          </p>
+          <div className="flex justify-center space-x-4 mb-5">
+            <input
+              type="file"
+              accept=".csv"
+              ref={fileInputRef}
+              onChange={handleFileUpload}
+              className="hidden"
+            />
+            <Button
+              variant="outlined"
               sx={{
-                "& .MuiInputLabel-root": { color: "gray" },
-                "& .MuiOutlinedInput-root": {
-                  color: "white",
-                  "& fieldset": { borderColor: "gray" },
-                  "&:hover fieldset": { borderColor: "white" },
-                  "&.Mui-focused fieldset": { borderColor: "#84cc16" }
+                color: "white",
+                borderColor: "gray",
+                "&:hover": {
+                  backgroundColor: csvUploaded
+                    ? "#84cc16"
+                    : "rgba(30, 41, 59, 0.5)",
+                  borderColor: "gray"
+                },
+                backgroundColor: csvUploaded ? "#84cc16" : "transparent"
+              }}
+              onClick={() => fileInputRef.current?.click()}
+            >
+              {csvUploaded ? "CSV Uploaded ✓" : "Upload Transaction History"}
+            </Button>
+            <Button
+              variant="outlined"
+              sx={{
+                color: "white",
+                borderColor: "gray",
+                "&:hover": {
+                  backgroundColor: userInfoSubmitted
+                    ? "#84cc16"
+                    : "rgba(30, 41, 59, 0.5)",
+                  borderColor: "gray"
+                },
+                backgroundColor: userInfoSubmitted ? "#84cc16" : "transparent"
+              }}
+              onClick={() => setIsDialogOpen(true)}
+            >
+              {userInfoSubmitted ? "Info Submitted ✓" : "Enter User Info"}
+            </Button>
+          </div>
+          <div className="flex justify-center space-x-4">
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor:
+                  csvUploaded && userInfoSubmitted ? "#84cc16" : "#334155",
+                color: csvUploaded && userInfoSubmitted ? "#0f172a" : "#94a3b8",
+                "&:hover": {
+                  backgroundColor:
+                    csvUploaded && userInfoSubmitted ? "#65a30d" : "#334155"
+                },
+                "&.Mui-disabled": {
+                  backgroundColor: "#334155",
+                  color: "#94a3b8"
                 }
               }}
-            />
-          ))}
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            sx={{
-              mt: 3,
-              mb: 2,
-              backgroundColor: "#84cc16",
-              "&:hover": {
-                backgroundColor: "#65a30d"
-              }
-            }}
-          >
-            Submit
-          </Button>
-        </Box>
-      </DialogContent>
-    </Dialog>
-
-    {/* Card Preview Section */}
-    <div className="relative">
-      <div className="absolute inset-0  from-slate-900 to-transparent rounded-2xl" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {/* Preview sections remain unchanged */}
-        <div className="bg-slate-800/50 p-6 rounded-2xl backdrop-blur">
-          <div className="mb-4">
-            <h3 className="text-white font-medium mb-2">
-              Recommended Cards
-            </h3>
-            <div className="space-y-3">
-              <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
-              <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
-              <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
-              <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
-            </div>
+              onClick={handleRecommendations}
+              disabled={!csvUploaded || !userInfoSubmitted}
+              endIcon={<ChevronRight />}
+            >
+              Get Matched Now
+            </Button>
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-2xl">
-          <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-800 rounded-xl p-4 text-white">
-            <div className="flex justify-between items-start">
-              <div className="space-y-4">
-                <div className="w-12 h-8 bg-lime-400 rounded" />
-                <div className="text-lg">•••• 4242</div>
-              </div>
-              <div className="text-sm opacity-75">
-                <img
-                  src={CapLogo}
-                  alt="Capital One Logo"
-                  style={{ width: "85px", height: "auto" }}
+        {/* User Info Dialog */}
+        <Dialog
+          open={isDialogOpen}
+          onClose={() => setIsDialogOpen(false)}
+          PaperProps={{
+            sx: {
+              backgroundColor: "#1e293b",
+              color: "white"
+            }
+          }}
+        >
+          <DialogTitle>Enter User Information</DialogTitle>
+          <DialogContent>
+            <Box component="form" onSubmit={handleFormSubmit} sx={{ mt: 2 }}>
+              {Object.keys(formData).map((field) => (
+                <TextField
+                  key={field}
+                  fullWidth
+                  margin="normal"
+                  label={field.replace(/([A-Z])/g, " $1").trim()}
+                  name={field}
+                  type={field === "password" ? "password" : "text"}
+                  value={formData[field as keyof UserFormData]}
+                  onChange={handleFormChange}
+                  sx={{
+                    "& .MuiInputLabel-root": { color: "gray" },
+                    "& .MuiOutlinedInput-root": {
+                      color: "white",
+                      "& fieldset": { borderColor: "gray" },
+                      "&:hover fieldset": { borderColor: "white" },
+                      "&.Mui-focused fieldset": { borderColor: "#84cc16" }
+                    }
+                  }}
                 />
+              ))}
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                sx={{
+                  mt: 3,
+                  mb: 2,
+                  backgroundColor: "#84cc16",
+                  "&:hover": {
+                    backgroundColor: "#65a30d"
+                  }
+                }}
+              >
+                Submit
+              </Button>
+            </Box>
+          </DialogContent>
+        </Dialog>
+
+        {/* Card Preview Section */}
+        <div className="relative">
+          <div className="absolute inset-0  from-slate-900 to-transparent rounded-2xl" />
+          <div className="grid grid-cols-3 gap-6">
+            {/* Preview sections remain unchanged */}
+            <div className="bg-slate-800/50 p-6 rounded-2xl backdrop-blur">
+              <div className="mb-4">
+                <h3 className="text-white font-medium mb-2">
+                  Recommended Cards
+                </h3>
+                <div className="space-y-3">
+                  <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
+                  <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
+                  <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
+                  <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden" />
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-2xl">
+              <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-800 rounded-xl p-4 text-white">
+                <div className="flex justify-between items-start">
+                  <div className="space-y-4">
+                    <div className="w-12 h-8 bg-lime-400 rounded" />
+                    <div className="text-lg">•••• 4242</div>
+                  </div>
+                  <div className="text-sm opacity-75">
+                    <img
+                      src={CapLogo}
+                      alt="Capital One Logo"
+                      style={{ width: "85px", height: "auto" }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-slate-800/50 p-6 rounded-2xl backdrop-blur">
+              <div className="mb-4">
+                <h3 className="text-white font-medium mb-2">Monthly Rewards</h3>
+                <div className="text-3xl text-lime-400 font-semibold">
+                  $234.50
+                </div>
+                <div className="text-gray-400 text-sm">Potential Cashback</div>
               </div>
             </div>
           </div>
         </div>
-
-        <div className="bg-slate-800/50 p-6 rounded-2xl backdrop-blur">
-          <div className="mb-4">
-            <h3 className="text-white font-medium mb-2">
-              Monthly Rewards
-            </h3>
-            <div className="text-3xl text-lime-400 font-semibold">
-              $234.50
-            </div>
-            <div className="text-gray-400 text-sm">Potential Cashback</div>
-          </div>
-        </div>
-      </div>
+      </main>
     </div>
-  </main>
-</div>
   );
 };
 
